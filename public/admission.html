@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Admission Form</h2> <br>
+    <form action="apply" method="post">
+        <label>Name:</label>
+        <input type="text" name="name" placeholder="Enter your name" required> <br> <br>
+
+        <label>Email:</label>
+        <input type="email" name="email" placeholder="Enter Email ID" required> <br> <br>
+
+        <label>Phone:</label>
+        <input type="text" name="phone" placeholder="Enter Mobile no." required> <br> <br>
+
+        <label>Course:</label>
+        <select name="course" required>
+            <option value="">Select Course</option>
+            <option value="B.S Computer Application">B.S Computer Application</option>
+            <option value="B.Tech">B.Tech</option>
+            <option value="BA">BA</option>
+        </select>
+
+        <button type="submit"> Submit </button>
+    </form>
+</body>
+</html>
